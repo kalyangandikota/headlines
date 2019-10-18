@@ -1,5 +1,19 @@
 .App {
+  margin: auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40px 40px 40px;
+  align-content: center;
   text-align: center;
+  height: 100vh;
+}
+
+.floor {
+  border: 1px solid #ccc;
+}
+
+.floor.selected {
+  border: 2px solid red;
 }
 
 .App-logo {
@@ -20,3 +34,4 @@
 .App-link {
   color: #09d3ac;
 }
+
